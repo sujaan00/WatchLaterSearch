@@ -1,5 +1,4 @@
 # WatchLaterSearch
-# LaterLens
 
 A lightweight Chrome extension that adds an instant search bar to your YouTube Watch Later playlist, making it easy to find saved videos without endless scrolling.
 
