@@ -1,0 +1,14 @@
+{
+  "manifest_version": 3,
+  "name": "Watch Later Filter",
+  "version": "1.0",
+  "description": "Adds a keyword filter box to YouTube Watch Later playlist.",
+  "content_scripts": [
+    {
+      "matches": ["*://www.youtube.com/playlist?list=WL*"],
+      "js": ["content.js"],
+      "run_at": "document_idle"
+    }
+  ],
+  "host_permissions": ["*://*.youtube.com/*"]
+}
